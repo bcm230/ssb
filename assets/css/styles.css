@@ -3,3 +3,43 @@
 * {
 	font-family: Arial;
 }
+
+body {
+	margin: 0;
+	background-image: url("../img/mural.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.content {
+	background-color: rgba(211, 211, 211, 0.95);
+	width: min(900px, 90%);
+	margin: 100px auto;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	word-break: normal;
+}
+
+section {
+	margin-bottom: 80px;
+}
