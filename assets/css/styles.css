@@ -1,7 +1,7 @@
 /* styles.css */
 
 * {
-	font-family: Arial;
+	font-family: Arial, Noto Serif;
 }
 
 body {
@@ -23,17 +23,20 @@ body {
 
 
 h1 {
+	font-family: Noto Serif;
 	text-align: center;
 	margin-top: 60px;
 	margin-bottom: 20px;
 }
 
 h2 {
+	font-family: Noto Serif;
 	margin-top: 40px;
 	margin-bottom: 10px;
 }
 
 p {
+	font-family: 'Noto Sans';
 	font-size: 1.2em;
 	line-height: 1.5;
 	letter-spacing: 1px;
@@ -42,4 +45,23 @@ p {
 
 section {
 	margin-bottom: 80px;
+}
+
+figure {
+	margin: 40px 0;
+	text-align: center;
+}
+
+	figure img {
+		display: block;
+		max-width: 100%;
+		width: 850px;
+		margin: 0 auto;
+		border-radius: 8px;
+	}
+
+figcaption {
+	margin-top: 10px;
+	font-size: 0.95em;
+	font-style: italic;
 }
