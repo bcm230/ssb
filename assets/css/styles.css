@@ -5,12 +5,12 @@
 }
 
 body {
-	background-image: url("../img/grid.png");
+	background-image: url("../img/sky.png");
 	margin: 0;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: repeat;
+	background-size: initial;
 	background-color: #b59fe2
 }
 
@@ -44,9 +44,10 @@ p {
 	word-break: normal;
 }
 
-section {
-	margin-bottom: 80px;
-}
+
+
+
+
 
 figure {
 	margin: 40px 0;
